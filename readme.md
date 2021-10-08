@@ -1,8 +1,8 @@
-//--------------------------------------------- Database
+//Database
 1- Run mongodb on this port : 27017
 2- Import assignment script
 
-//--------------------------------------------- Application
+//Application
 After maven install the following projects:
 1- crossover_books
 2- crossover_profile
