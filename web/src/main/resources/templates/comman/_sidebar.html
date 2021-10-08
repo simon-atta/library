@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<body th:fragment="sidebar">
+
+
+<!-- BEGIN SIDEBAR -->
+	<div class="page-sidebar-wrapper">
+		<div class="page-sidebar navbar-collapse collapse">
+			<ul class="page-sidebar-menu" data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+				<li class="sidebar-toggler-wrapper">
+					<div class="sidebar-toggler">
+					</div>
+				</li>
+				<li class="sidebar-search-wrapper">
+					<form class="sidebar-search " action="extra_search.html" method="get">
+						<a href="javascript:;" class="remove">
+						<i class="icon-close"></i>
+						</a>
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="Search..."/>
+							<span class="input-group-btn">
+							<a href="javascript:;" class="btn submit"><i class="icon-magnifier"></i></a>
+							</span>
+						</div>
+					</form>
+				</li>
+				
+				
+				<li class="start ">
+					<a href="javascript:;">
+					<i class="icon-home"></i>
+					<span class="title">Books</span>
+					<span class="arrow "></span>
+					</a>
+					<ul class="sub-menu">
+						<li>
+							<a href="/booksearch">
+							<i class="icon-bar-chart"></i>
+							Search by book title</a>
+						</li>
+						<li>
+							<a href="/publishersearch">
+							<i class="icon-bulb"></i>
+							Search by publisher</a>
+						</li>
+					</ul>
+				</li>
+				
+				<li class="start ">
+					<a href="javascript:;">
+					<i class="icon-home"></i>
+					<span class="title">Demands</span>
+					<span class="arrow "></span>
+					</a>
+					<ul class="sub-menu">
+						<li>
+							<a href="/demands/view/">
+							<i class="icon-bar-chart"></i>
+							Show Demands</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<!-- END SIDEBAR MENU -->
+		</div>
+	</div>
+	<!-- END SIDEBAR -->
+
+</body>
+</html>

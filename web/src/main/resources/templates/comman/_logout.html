@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" prefix="og:http://ogp.me/ns#">
+<body>
+
+	<form action="/logout" method="post" name="logout" id="logout" th:fragment="logout">
+		<input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
+	</form>
+
+	<!-- Integration -->
+	<div th:remove="tag" th:replace="module/integration/_stateCounter :: stateCounter(${stateCounterEnv})"></div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body th:fragment="header">
+
+
+<div class="page-header navbar navbar-fixed-top">
+	<!-- BEGIN HEADER INNER -->
+	<div class="page-header-inner">
+		<!-- BEGIN LOGO -->
+		<div class="page-logo">
+			<a href="index.html">
+				Cross Over Library
+			</a>
+			<div class="menu-toggler sidebar-toggler hide">
+				<!-- DOC: Remove the above "hide" to enable the sidebar toggler button on header -->
+			</div>
+		</div>
+		<!-- END LOGO -->
+		<!-- BEGIN RESPONSIVE MENU TOGGLER -->
+		<a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+		</a>
+		<!-- END RESPONSIVE MENU TOGGLER -->
+		
+		
+		<!-- BEGIN TOP NAVIGATION MENU -->
+		<div class="top-menu">
+			<ul class="nav navbar-nav pull-right">
+				
+				<li class="dropdown dropdown-quick-sidebar-toggler">
+					<a href="javascript:logoutFun();" class="dropdown-toggle">
+						<i class="icon-logout"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
